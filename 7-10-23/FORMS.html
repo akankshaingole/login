@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <!--internal css-->
+    <style>
+        body {background-color:aquamarine;}
+    </style>
+<body>
+    
+    <!--inline css-->
+    <h1 style="color:blue;">REGISTRATION FORM</h1>
+
+    <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Akanksha"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Ingole"><br><br><br>
+    <!-- radio button-->
+    <h2 style="color:red;">GENDER</h2>
+    <input type="radio" id="male" name="gender" value="MALE">
+    <label for="male">MALE</label><br>
+    <input type="radio" id="female" name="gender" value="FEMALE">
+    <label for="female">FEMALE</label><br>
+    <input type="radio" id="other" name="gender" value="OTHER">
+    <label for="other">OTHER</label><br>
+    <!--phone tel-->
+    <h3 style="color:red;"> PHONE NUMBER</h3>
+    <label for="phone"> PHONE NUMBER</label>
+    <input type="tel" id="phone" name="phone number" placeholder="01234-56789" pattern="[0-9]{5}-[0-9]{5}" required><br><br><br>
+    <!--checkbox-->
+    <h4 style="color:red;"> LANGUAGES KNOWN</h4>
+    <input type="checkbox" id="html" name="language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="language" value="CSS">
+    <label for="html">CSS</label><br>
+    <input type="checkbox" id="javascript" name="language" value="javascript">
+    <label for="html"></label>JAVASCRIPT</label><br><br><br>
+    <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
