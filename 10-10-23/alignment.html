@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Alignment</title>
+        <style>
+            *{
+            box-sizing: border-box;
+            }
+            body{
+                font-family: 'Ubuntu', sans-serif;
+            }
+            .container{
+                width: 900px;
+                border: 3px solid purple;
+                margin: 33px auto;
+            }
+            .item{
+                border: 3px solid gray;
+                padding: 12px 3px   ;
+                margin: 12px 3px;
+                background: rgb(248, 238, 238);
+            }
+            #fruit{
+                float: left;
+                width: 58px;
+            }
+            #computer{
+                float: left;
+                width: 48px;
+            }
+            #stationary{
+                clear: left;
+                width: 100%;
+            }
+            p,h1{
+                text-align: right;
+                text-align: left;
+                text-align: center;
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to store</h1>
+        <div id="fruit" class="item">
+            <h3>FRUIT</h3>
+            <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis nemo at aut expedita cum maiores facere reiciendis laborum, minus repudiandae, saepe provident.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>COMPUTER</h3>
+            <p id ="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem consequuntur, amet, reiciendis deserunt quasi dolor ipsa quidem exercitationem nobis repellat illum blanditiis maiores.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>STATIONARY</h3>
+            <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis nemo at aut expedita cum maiores facere reiciendis laborum, minus repudiandae, saepe provident.</p>
+        </div>
+
+    </body>
+</html>
