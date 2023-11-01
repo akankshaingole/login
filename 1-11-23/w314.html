@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<input type="number" value="" id="js">
+<button type="submit" onclick="toCelsius()">submit</button>
+
+
+
+<p>Invoke (call) a function that converts from Fahrenheit to Celsius:</p>
+<p id="demo"></p>
+
+<script defer>
+function toCelsius() {
+    var c;
+    var f=document.getElementById("js").value;
+
+
+  c= (5/9) * (f-32);
+  document.getElementById("demo").innerHTML = c;
+  console.log(c);
+}
+</script>
+
+</body>
+</html>
