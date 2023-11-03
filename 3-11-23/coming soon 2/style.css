@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    background: url('KIKANI\ COMING\ SOON\ PAGE\ copy.png') no-repeat center center/cover;
+    height: 600px;
+    width: 70%;
+}
+.right{
+    float: right;
+    margin-top: 100px;
+    height: 40px;
+    width: 40px;
+    
+}
+.imgf{
+display: inline-block;
+height: 80px;
+width: 80px;
+margin: 5px;
+margin-top: 210px;
+border: 2px solid white;
+}
+#img1{
+    border: 5px solid white;
+    background-color: pink;
+    justify-content: center;
+}
+#img2{
+    border: 5px solid white;
+    background-color: paleturquoise;
+    justify-content: center;
+}
+#img3{
+    border: 5px solid white;
+    background-color: palegreen;
+    justify-content: center;
+}
+#img4{
+    border: 5px solid white;
+    background-color: rgb(238, 187, 135);
+    justify-content: center;
+}
